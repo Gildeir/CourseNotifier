@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Balta.ContentContext
 {
-    public class Career: Content
+    public class Career : Content
     {
-        public int Course { get; set; }
+        public Career (string title, string url) : base(title, url)
+        {
+            Items = new List<CarrerItem>();
+        }
+        public IList<CarrerItem> Items { get; set; }
+
+        public int TotalCourses => Items.Count;
     }
 }
