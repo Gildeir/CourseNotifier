@@ -14,7 +14,5 @@ namespace Balta.ContentContext
         public string Title { get; set; } = string.Empty;
 
         public int DurationInMinutes { get; set; }
-
-
     }
 }
