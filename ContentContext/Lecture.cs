@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Balta.ContentContext
 {
-    public class Lecture
+    public class Lecture: BaseContent
     {
         public int Order { get; set; }
 

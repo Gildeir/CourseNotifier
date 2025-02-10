@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Balta.ContentContext
 {
-    public class CarrerItem
+    public class CarrerItem: BaseContent
     {
         public CarrerItem(int ordem, string title, string descrioption, Course course)
         {
