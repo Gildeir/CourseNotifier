@@ -10,6 +10,9 @@ namespace Balta.ContentContext
     {
         public CarrerItem(int ordem, string title, string descrioption, Course course)
         {
+            if (course == null)
+                throw new SystemException("O curso não pode ser nulo");
+            
             Ordem = ordem;
             Title = title;
             Descrioption = descrioption;
