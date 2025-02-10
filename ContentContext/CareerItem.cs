@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Balta.NotificationContext;
+using Balta.SharedContext;
 
 namespace Balta.ContentContext
 {
-    public class CarrerItem: BaseContent
+    public class CarrerItem : BaseContent
     {
         public CarrerItem(int ordem, string title, string descrioption, Course course)
         {
             if (course == null)
-                throw new SystemException("O curso não pode ser nulo");
+            {
+                AddNotification(new Notification("Curso", "Curso inválido"));
+            }
             
             Ordem = ordem;
             Title = title;
