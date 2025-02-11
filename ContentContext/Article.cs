@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Balta.ContentContext
+namespace CourseNotifier.ContentContext
 {
     public class Article : Content
     {

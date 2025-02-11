@@ -1,6 +1,6 @@
-﻿using Balta.ContentContext;
+﻿using CourseNotifier.ContentContext;
 
-namespace Balta
+namespace CourseNotifier
 {
     public class Module
     {

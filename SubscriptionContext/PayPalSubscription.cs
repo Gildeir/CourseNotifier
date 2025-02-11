@@ -1,4 +1,4 @@
-﻿namespace Balta.SubscriptionContext
+﻿namespace CourseNotifier.SubscriptionContext
 {
     public class PayPalSubscription : Subscription
     {

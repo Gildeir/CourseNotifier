@@ -1,4 +1,4 @@
-﻿namespace Balta.NotificationContext
+﻿namespace CourseNotifier.NotificationContext
 {
     public sealed class Notification
     {

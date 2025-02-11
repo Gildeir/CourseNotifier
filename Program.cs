@@ -1,8 +1,8 @@
-﻿using Balta.ContentContext;
-using Balta.NotificationContext;
-using Balta.SubscriptionContext;
+﻿using CourseNotifier.ContentContext;
+using CourseNotifier.NotificationContext;
+using CourseNotifier.SubscriptionContext;
 
-namespace Balta
+namespace CourseNotifier
 {
     public class Program
     {

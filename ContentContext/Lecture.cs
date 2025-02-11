@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Balta.SharedContext;
+using CourseNotifier.SharedContext;
 
-namespace Balta.ContentContext
+namespace CourseNotifier.ContentContext
 {
     public class Lecture: BaseContent
     {

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Balta.NotificationContext;
-using Balta.SharedContext;
+using CourseNotifier.NotificationContext;
+using CourseNotifier.SharedContext;
 
-namespace Balta.ContentContext
+namespace CourseNotifier.ContentContext
 {
     public class CarrerItem : BaseContent
     {

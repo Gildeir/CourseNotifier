@@ -1,6 +1,6 @@
-﻿using Balta.NotificationContext;
+﻿using CourseNotifier.NotificationContext;
 
-namespace Balta.SharedContext
+namespace CourseNotifier.SharedContext
 {
     public abstract class BaseContent : Notifiable
     {

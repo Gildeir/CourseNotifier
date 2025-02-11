@@ -1,6 +1,6 @@
-﻿using Balta.ContentContext.Enums;
+﻿using CourseNotifier.ContentContext.Enums;
 
-namespace Balta.ContentContext
+namespace CourseNotifier.ContentContext
 {
     public class Course: Content
     {

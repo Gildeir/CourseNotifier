@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Balta.SubscriptionContext
+namespace CourseNotifier.SubscriptionContext
 {
     public class PagarMeSubscription : Subscription
     {

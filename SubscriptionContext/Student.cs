@@ -1,7 +1,7 @@
-﻿using Balta.NotificationContext;
-using Balta.SharedContext;
+﻿using CourseNotifier.NotificationContext;
+using CourseNotifier.SharedContext;
 
-namespace Balta.SubscriptionContext
+namespace CourseNotifier.SubscriptionContext
 {
     public class Student : BaseContent
     {
